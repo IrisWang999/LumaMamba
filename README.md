@@ -1,23 +1,17 @@
-# LYT-Net: Lightweight YUV Transformer-based Network for Low-Light Image Enhancement
+# LumaMamba: Low-light Enhancement in Color Space via Transformer-based Mamba
 
-<div align="center">
-  
-![Logo](../figs/Logo.png)
-
-[![arXiv](https://img.shields.io/badge/arxiv-paper-179bd3)](https://arxiv.org/abs/2401.15204)
-</div>
 
 ## Description
-This is the PyTorch version of LYT-Net.
+This is the PyTorch version of LumaMamba.
 
-**Note:** This is not the implementation used for reporting paper results.
+
 ## Experiment
 
 ### 1. Create Environment
 - Make Conda Environment
 ```bash
-conda create -n LYT_Torch python=3.9 -y
-conda activate LYT_Torch
+conda create -n LumaMamba_Torch python=3.9 -y
+conda activate LumaMamba_Torch
 ```
 - Install Dependencies
 ```bash
@@ -108,13 +102,4 @@ python train.py
 
 **Note:** Please modify the dataset paths in ```train.py``` as per your requirements.
 
-## Citation
-Preprint Citation
-```
-@article{brateanu2024,
-  title={LYT-Net: Lightweight YUV Transformer-based Network for Low-Light Image Enhancement},
-  author={Brateanu, Alexandru and Balmez, Raul and Avram, Adrian and Orhei, Ciprian},
-  journal={arXiv preprint arXiv:2401.15204},
-  year={2024}
-}
-```
+
